@@ -1,4 +1,6 @@
-abstract class Calculadora  {
+package calculadoraPackage;
+
+public abstract class Calculadora  {
     private double num1;
     private double num2;
 

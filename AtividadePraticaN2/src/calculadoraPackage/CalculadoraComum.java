@@ -1,4 +1,7 @@
+package calculadoraPackage;
+
 import java.util.Scanner;
+
 public class CalculadoraComum extends Calculadora {
 	Scanner in = new Scanner (System.in);
 
@@ -9,9 +12,11 @@ public class CalculadoraComum extends Calculadora {
 	public double subtracao () {
 		return getNum1()-getNum2();
 	}
+	
 	public double multiplicacao() {
 		return getNum1()*getNum2();
 	}
+	
 	public double dividir() {
 
 		double Num2 = 0;
@@ -21,14 +26,8 @@ public class CalculadoraComum extends Calculadora {
 				Num2 = in.nextDouble();
 			}
 			setNum2(Num2);
-
 		}
 
 		return getNum1()/getNum2();
-
-
 	}
-
-
-
 }
