@@ -8,17 +8,9 @@ public class CalculadoraCientifica extends Calculadora {
 	private double expoente;
 	
 	public double exponenciar() {
-		return Math.pow(getNum1(), getExpoente());
+		return Math.pow(getNum1(), getNum2());
 	}
 
-	public void setExpoente(double expoente) {
-		this.expoente = expoente;
-	}
-	
-	public double getExpoente() {
-		return expoente;
-	}
-	
 	public double calcularRaizQuadrada() {
 		return Math.sqrt(getNum1());
 	}
