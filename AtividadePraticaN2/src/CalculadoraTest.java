@@ -6,10 +6,11 @@ import java.lang.Math;
 import static org.junit.jupiter.api.Assertions.*;
 
 
-class CalculadoraTest {
+class  CalculadoraTest {
 
     CalculadoraComum calculadoraComum = new CalculadoraComum() ;
     CalculadoraCientifica calculadoraCientifica = new CalculadoraCientifica();
+
 
     @Test
     public void soma(){
